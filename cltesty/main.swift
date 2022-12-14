@@ -55,3 +55,11 @@ demo_closure_one()
 demo_closure_two()
 demo_closure_three()
 demo_closure_four()
+
+// objs and classes
+obj_class_one()
+obj_class_two()
+obj_class_three()
+obj_class_four()
+obj_class_five()
+obj_class_six()
