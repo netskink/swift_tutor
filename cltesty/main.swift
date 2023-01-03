@@ -63,3 +63,7 @@ obj_class_three()
 obj_class_four()
 obj_class_five()
 obj_class_six()
+
+// Enumerations and Structures
+enum_struct_one()
+

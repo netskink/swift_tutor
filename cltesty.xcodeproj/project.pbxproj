@@ -13,6 +13,7 @@
 		7296F3A7294283D500B665B4 /* arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7296F3A6294283D500B665B4 /* arrays.swift */; };
 		7296F3A9294283F100B665B4 /* dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7296F3A8294283F100B665B4 /* dictionary.swift */; };
 		7296F3AB294289C300B665B4 /* nil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7296F3AA294289C300B665B4 /* nil.swift */; };
+		729774912964BD1800339FC7 /* enum_struc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729774902964BD1800339FC7 /* enum_struc.swift */; };
 		72AF610A2943AAED008482D7 /* control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AF61092943AAED008482D7 /* control.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		7296F3A6294283D500B665B4 /* arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrays.swift; sourceTree = "<group>"; };
 		7296F3A8294283F100B665B4 /* dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictionary.swift; sourceTree = "<group>"; };
 		7296F3AA294289C300B665B4 /* nil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nil.swift; sourceTree = "<group>"; };
+		729774902964BD1800339FC7 /* enum_struc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum_struc.swift; sourceTree = "<group>"; };
 		72AF61092943AAED008482D7 /* control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				7296F39F2942728200B665B4 /* main.swift */,
+				729774902964BD1800339FC7 /* enum_struc.swift */,
 				7296F3A6294283D500B665B4 /* arrays.swift */,
 				7296F3A8294283F100B665B4 /* dictionary.swift */,
 				7296F3AA294289C300B665B4 /* nil.swift */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				729774912964BD1800339FC7 /* enum_struc.swift in Sources */,
 				72452430294A713C00F45ECA /* objects_classes.swift in Sources */,
 				7296F3A9294283F100B665B4 /* dictionary.swift in Sources */,
 				7296F3A02942728200B665B4 /* main.swift in Sources */,
