@@ -150,6 +150,7 @@ func enum_struct_four() {
 
 
 // https://stackoverflow.com/questions/24007461/how-to-enumerate-an-enum-with-string-type/49588446#49588446
+// see above for more info
 func enum_struct_five() -> [Card] {
     print("--------")
     
