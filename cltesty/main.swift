@@ -66,4 +66,8 @@ obj_class_six()
 
 // Enumerations and Structures
 enum_struct_one()
+enum_struct_two()
+enum_struct_three()
+print(enum_struct_five())
+
 
