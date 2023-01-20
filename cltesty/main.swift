@@ -71,3 +71,5 @@ enum_struct_three()
 print(enum_struct_five())
 
 
+// concurrency
+await concurrency_one()
