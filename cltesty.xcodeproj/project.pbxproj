@@ -15,6 +15,7 @@
 		7296F3AB294289C300B665B4 /* nil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7296F3AA294289C300B665B4 /* nil.swift */; };
 		729774912964BD1800339FC7 /* enum_struc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729774902964BD1800339FC7 /* enum_struc.swift */; };
 		72AF610A2943AAED008482D7 /* control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AF61092943AAED008482D7 /* control.swift */; };
+		72E24B5D298D69000033ADA3 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E24B5C298D69000033ADA3 /* protocols.swift */; };
 		72E65DCF297ACFB90013B5A9 /* concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E65DCE297ACFB90013B5A9 /* concurrency.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		7296F3AA294289C300B665B4 /* nil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nil.swift; sourceTree = "<group>"; };
 		729774902964BD1800339FC7 /* enum_struc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum_struc.swift; sourceTree = "<group>"; };
 		72AF61092943AAED008482D7 /* control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control.swift; sourceTree = "<group>"; };
+		72E24B5C298D69000033ADA3 /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
 		72E65DCE297ACFB90013B5A9 /* concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concurrency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 		7296F39E2942728200B665B4 /* cltesty */ = {
 			isa = PBXGroup;
 			children = (
+				72E24B5C298D69000033ADA3 /* protocols.swift */,
 				7245242F294A713C00F45ECA /* objects_classes.swift */,
 				72AF61092943AAED008482D7 /* control.swift */,
 				7287CF042947D448009455ED /* functions_closures.swift */,
@@ -147,6 +150,7 @@
 				729774912964BD1800339FC7 /* enum_struc.swift in Sources */,
 				72452430294A713C00F45ECA /* objects_classes.swift in Sources */,
 				72E65DCF297ACFB90013B5A9 /* concurrency.swift in Sources */,
+				72E24B5D298D69000033ADA3 /* protocols.swift in Sources */,
 				7296F3A9294283F100B665B4 /* dictionary.swift in Sources */,
 				7296F3A02942728200B665B4 /* main.swift in Sources */,
 				7296F3A7294283D500B665B4 /* arrays.swift in Sources */,

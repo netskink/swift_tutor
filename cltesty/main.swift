@@ -73,3 +73,13 @@ print(enum_struct_five())
 
 // concurrency
 await concurrency_one()
+
+
+// protocols and extensions
+protocol_one()
+protocol_two()
+protocol_three()
+protocol_four()
+protocol_five()
+
+
