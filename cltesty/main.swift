@@ -82,4 +82,15 @@ protocol_three()
 protocol_four()
 protocol_five()
 
-
+// Error Handling
+error_one(printerName: "Bi Sheng")
+error_one(printerName: "Never Has Toner")
+print("=====")
+error_two(printerName: "Never Has Toner")
+error_two(printerName: "On Fire")
+error_two(printerName: "Out Of Paper")
+print("=====")
+error_three(printerName: "Old Reliable")
+error_three(printerName: "Out Of Paper")
+print("=====")
+print("Does fridge contain spam? \(fridgeContains("spam"))")
