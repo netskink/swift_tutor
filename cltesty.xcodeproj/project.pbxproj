@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		720464B82992E4D300068FCB /* errorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720464B72992E4D300068FCB /* errorHandling.swift */; };
 		72452430294A713C00F45ECA /* objects_classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7245242F294A713C00F45ECA /* objects_classes.swift */; };
 		7287CF052947D448009455ED /* functions_closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287CF042947D448009455ED /* functions_closures.swift */; };
 		7296F3A02942728200B665B4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7296F39F2942728200B665B4 /* main.swift */; };
@@ -16,6 +15,7 @@
 		7296F3AB294289C300B665B4 /* nil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7296F3AA294289C300B665B4 /* nil.swift */; };
 		729774912964BD1800339FC7 /* enum_struc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729774902964BD1800339FC7 /* enum_struc.swift */; };
 		72AF610A2943AAED008482D7 /* control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AF61092943AAED008482D7 /* control.swift */; };
+		72C404B9299ECC2F00B37B1A /* errorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C404B8299ECC2F00B37B1A /* errorHandling.swift */; };
 		72E24B5D298D69000033ADA3 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E24B5C298D69000033ADA3 /* protocols.swift */; };
 		72E65DCF297ACFB90013B5A9 /* concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E65DCE297ACFB90013B5A9 /* concurrency.swift */; };
 /* End PBXBuildFile section */
@@ -33,7 +33,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		720464B72992E4D300068FCB /* errorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = errorHandling.swift; sourceTree = SOURCE_ROOT; };
 		7245242F294A713C00F45ECA /* objects_classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = objects_classes.swift; sourceTree = "<group>"; };
 		7287CF042947D448009455ED /* functions_closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions_closures.swift; sourceTree = "<group>"; };
 		7296F39C2942728200B665B4 /* cltesty */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cltesty; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +42,7 @@
 		7296F3AA294289C300B665B4 /* nil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nil.swift; sourceTree = "<group>"; };
 		729774902964BD1800339FC7 /* enum_struc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum_struc.swift; sourceTree = "<group>"; };
 		72AF61092943AAED008482D7 /* control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control.swift; sourceTree = "<group>"; };
+		72C404B8299ECC2F00B37B1A /* errorHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = errorHandling.swift; sourceTree = "<group>"; };
 		72E24B5C298D69000033ADA3 /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
 		72E65DCE297ACFB90013B5A9 /* concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concurrency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 		7296F39E2942728200B665B4 /* cltesty */ = {
 			isa = PBXGroup;
 			children = (
-				720464B72992E4D300068FCB /* errorHandling.swift */,
+				72C404B8299ECC2F00B37B1A /* errorHandling.swift */,
 				72E24B5C298D69000033ADA3 /* protocols.swift */,
 				7245242F294A713C00F45ECA /* objects_classes.swift */,
 				72AF61092943AAED008482D7 /* control.swift */,
@@ -157,7 +157,7 @@
 				7296F3A9294283F100B665B4 /* dictionary.swift in Sources */,
 				7296F3A02942728200B665B4 /* main.swift in Sources */,
 				7296F3A7294283D500B665B4 /* arrays.swift in Sources */,
-				720464B82992E4D300068FCB /* errorHandling.swift in Sources */,
+				72C404B9299ECC2F00B37B1A /* errorHandling.swift in Sources */,
 				7287CF052947D448009455ED /* functions_closures.swift in Sources */,
 				7296F3AB294289C300B665B4 /* nil.swift in Sources */,
 				72AF610A2943AAED008482D7 /* control.swift in Sources */,
