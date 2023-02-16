@@ -94,3 +94,10 @@ error_three(printerName: "Old Reliable")
 error_three(printerName: "Out Of Paper")
 print("=====")
 print("Does fridge contain spam? \(fridgeContains("spam"))")
+
+
+// generics
+generics_one()
+generics_two()
+generics_three()
+generics_four()

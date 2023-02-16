@@ -16,6 +16,7 @@
 		729774912964BD1800339FC7 /* enum_struc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729774902964BD1800339FC7 /* enum_struc.swift */; };
 		72AF610A2943AAED008482D7 /* control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AF61092943AAED008482D7 /* control.swift */; };
 		72C404B9299ECC2F00B37B1A /* errorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C404B8299ECC2F00B37B1A /* errorHandling.swift */; };
+		72C404BB299ECCF100B37B1A /* generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C404BA299ECCF100B37B1A /* generics.swift */; };
 		72E24B5D298D69000033ADA3 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E24B5C298D69000033ADA3 /* protocols.swift */; };
 		72E65DCF297ACFB90013B5A9 /* concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E65DCE297ACFB90013B5A9 /* concurrency.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,7 @@
 		729774902964BD1800339FC7 /* enum_struc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum_struc.swift; sourceTree = "<group>"; };
 		72AF61092943AAED008482D7 /* control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control.swift; sourceTree = "<group>"; };
 		72C404B8299ECC2F00B37B1A /* errorHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = errorHandling.swift; sourceTree = "<group>"; };
+		72C404BA299ECCF100B37B1A /* generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generics.swift; sourceTree = "<group>"; };
 		72E24B5C298D69000033ADA3 /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
 		72E65DCE297ACFB90013B5A9 /* concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concurrency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 				7296F3A6294283D500B665B4 /* arrays.swift */,
 				7296F3A8294283F100B665B4 /* dictionary.swift */,
 				7296F3AA294289C300B665B4 /* nil.swift */,
+				72C404BA299ECCF100B37B1A /* generics.swift */,
 			);
 			path = cltesty;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				72E65DCF297ACFB90013B5A9 /* concurrency.swift in Sources */,
 				72E24B5D298D69000033ADA3 /* protocols.swift in Sources */,
 				7296F3A9294283F100B665B4 /* dictionary.swift in Sources */,
+				72C404BB299ECCF100B37B1A /* generics.swift in Sources */,
 				7296F3A02942728200B665B4 /* main.swift in Sources */,
 				7296F3A7294283D500B665B4 /* arrays.swift in Sources */,
 				72C404B9299ECC2F00B37B1A /* errorHandling.swift in Sources */,
