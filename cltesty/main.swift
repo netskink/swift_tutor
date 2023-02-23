@@ -101,3 +101,7 @@ generics_one()
 generics_two()
 generics_three()
 generics_four()
+
+
+// stdlib api
+stdlib_one()
