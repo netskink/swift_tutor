@@ -37,6 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7216A04C2A9C2DB000F9351A /* hws-01.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-01.playground"; path = "cltesty/hws-01.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7245242F294A713C00F45ECA /* objects_classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = objects_classes.swift; sourceTree = "<group>"; };
 		7268C21629A7B8D500FE1B44 /* stdlib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stdlib.swift; sourceTree = "<group>"; };
 		7287CF042947D448009455ED /* functions_closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions_closures.swift; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 		7296F3932942728200B665B4 = {
 			isa = PBXGroup;
 			children = (
+				7216A04C2A9C2DB000F9351A /* hws-01.playground */,
 				7296F39E2942728200B665B4 /* cltesty */,
 				7296F39D2942728200B665B4 /* Products */,
 			);
