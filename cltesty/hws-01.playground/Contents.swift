@@ -1,8 +1,8 @@
 import Cocoa
 
 // 100 days of swiftUI
-// https://www.hackingwithswift.com/100/swiftui/1
-
+// https://www.hackingwithswift.com/100/swiftui
+// day 1
 
 // make variable
 var greeting = "Hello, playground"
