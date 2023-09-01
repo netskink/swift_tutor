@@ -51,11 +51,13 @@
 		7296F3AA294289C300B665B4 /* nil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nil.swift; sourceTree = "<group>"; };
 		729774902964BD1800339FC7 /* enum_struc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum_struc.swift; sourceTree = "<group>"; };
 		72AF61092943AAED008482D7 /* control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control.swift; sourceTree = "<group>"; };
+		72B897422AA154D0003CDD71 /* hws-05.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-05.playground"; path = "cltesty/hws-05.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		72C404B8299ECC2F00B37B1A /* errorHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = errorHandling.swift; sourceTree = "<group>"; };
 		72C404BA299ECCF100B37B1A /* generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generics.swift; sourceTree = "<group>"; };
 		72C4302529A7F35200DC2FDD /* types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = types.swift; sourceTree = "<group>"; };
 		72C4302729A7F76A00DC2FDD /* print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = print.swift; sourceTree = "<group>"; };
 		72C4302D29A8015500DC2FDD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		72D6729C2AA278090085D5A0 /* hws-06.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-06.playground"; path = "cltesty/hws-06.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		72E24B5C298D69000033ADA3 /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
 		72E65DCE297ACFB90013B5A9 /* concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concurrency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +76,8 @@
 		7296F3932942728200B665B4 = {
 			isa = PBXGroup;
 			children = (
+				72D6729C2AA278090085D5A0 /* hws-06.playground */,
+				72B897422AA154D0003CDD71 /* hws-05.playground */,
 				721CC4852AA00689004E8F31 /* hws-04.playground */,
 				725357162A9F889400C45796 /* hws-03.playground */,
 				722EDD762A9D6EA200A95468 /* hws-02.playground */,
