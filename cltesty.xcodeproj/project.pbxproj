@@ -44,6 +44,7 @@
 		725357162A9F889400C45796 /* hws-03.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-03.playground"; path = "cltesty/hws-03.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7268C21629A7B8D500FE1B44 /* stdlib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stdlib.swift; sourceTree = "<group>"; };
 		7287CF042947D448009455ED /* functions_closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions_closures.swift; sourceTree = "<group>"; };
+		729328772AA3E88A008BB75E /* hws-07.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-07.playground"; path = "cltesty/hws-07.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7296F39C2942728200B665B4 /* cltesty */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cltesty; sourceTree = BUILT_PRODUCTS_DIR; };
 		7296F39F2942728200B665B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7296F3A6294283D500B665B4 /* arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrays.swift; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 		7296F3932942728200B665B4 = {
 			isa = PBXGroup;
 			children = (
+				729328772AA3E88A008BB75E /* hws-07.playground */,
 				72D6729C2AA278090085D5A0 /* hws-06.playground */,
 				72B897422AA154D0003CDD71 /* hws-05.playground */,
 				721CC4852AA00689004E8F31 /* hws-04.playground */,
