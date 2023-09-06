@@ -270,3 +270,115 @@ let roslin = Employee6(name: "Laura Roslin")
 
 // as does creating an anonymous employee
 let anon = Employee6()
+
+
+//
+// initializers
+//
+
+
+// ex one
+struct Dictionary {
+    var words = Set<String>()
+}
+let dictionary = Dictionary()
+
+// ex two
+struct Country {
+    var name: String
+    var usesImperialMeasurements: Bool
+    init(countryName: String) {
+        name = countryName
+        let imperialCountries = ["Liberia", "Myanmar", "USA"]
+        if imperialCountries.contains(name) {
+            usesImperialMeasurements = true
+        } else {
+            usesImperialMeasurements = false
+        }
+    }
+}
+
+// ex three
+struct Tree {
+    var type: String
+    var hasFruit: Bool
+    init() {
+        type = "Cherry"
+        hasFruit = true
+    }
+}
+let cherryTree = Tree()
+cherryTree.type
+cherryTree.hasFruit
+
+// ex four
+struct Starship {
+    var name: String
+    var maxWarp: Double
+    init(starshipName: String) {
+        name = starshipName
+        maxWarp = 10.0
+    }
+}
+let voyager = Starship(starshipName: "Voyager")
+voyager.name
+voyager.maxWarp
+
+// ex five
+struct PowerTool {
+    var name: String
+    var cost: Int
+}
+let drill = PowerTool(name: "Hammer Drill", cost: 80)
+
+
+// ex six
+// NOTE: this one does a class, thus all instances
+struct Cabinet {
+    var height: Double
+    var width: Double
+    var area: Double
+    init (itemHeight: Double, itemWidth: Double) {
+        height = itemHeight
+        width = itemWidth
+        area = height * width
+    }
+}
+let drawers = Cabinet(itemHeight: 1.4, itemWidth: 1.0)
+
+// ex seven
+// NOTE: this one does a particular instance
+struct Conference {
+    var name: String
+    var location: String
+    init(name: String, location: String) {
+        self.name = name
+        self.location = location
+    }
+}
+let wwdc = Conference(name: "WWDC", location: "San Jose")
+
+// ex eight
+// this one uses an initializer param name which
+// differs from the actual property name
+struct Bus {
+    var routeNumber: Int
+    init(route: Int) {
+        self.routeNumber = route
+    }
+}
+let mybus = Bus(route: 31)
+mybus.routeNumber
+
+// ex nine
+// this one has:
+//   * init() which only does a instance setting for one property
+//   * has one property set outside the init()
+struct Cottage {
+    var rooms: Int
+    var rating = 5
+    init(rooms: Int) {
+        self.rooms = rooms
+    }
+}
+let bailbrookHouse = Cottage(rooms: 4)
