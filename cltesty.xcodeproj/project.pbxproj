@@ -54,6 +54,7 @@
 		7296F3AA294289C300B665B4 /* nil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nil.swift; sourceTree = "<group>"; };
 		729774902964BD1800339FC7 /* enum_struc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum_struc.swift; sourceTree = "<group>"; };
 		72AF61092943AAED008482D7 /* control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control.swift; sourceTree = "<group>"; };
+		72B189962AA933F200D2187E /* hws-11.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-11.playground"; path = "cltesty/hws-11.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		72B897422AA154D0003CDD71 /* hws-05.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-05.playground"; path = "cltesty/hws-05.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		72BD4B942AA6BC1A00D887CB /* hws-09.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-09.playground"; path = "cltesty/hws-09.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		72C404B8299ECC2F00B37B1A /* errorHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = errorHandling.swift; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		7296F3932942728200B665B4 = {
 			isa = PBXGroup;
 			children = (
+				72B189962AA933F200D2187E /* hws-11.playground */,
 				7222CE912AA7EC5C004EDEF9 /* hws-10.playground */,
 				72BD4B942AA6BC1A00D887CB /* hws-09.playground */,
 				725856382AA52970001ED7C8 /* hws-08.playground */,
