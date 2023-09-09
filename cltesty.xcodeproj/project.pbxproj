@@ -65,6 +65,7 @@
 		72C4302729A7F76A00DC2FDD /* print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = print.swift; sourceTree = "<group>"; };
 		72C4302D29A8015500DC2FDD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		72D6729C2AA278090085D5A0 /* hws-06.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-06.playground"; path = "cltesty/hws-06.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		72DE16372AAC9E87009E96A2 /* HWS13.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = HWS13.md; path = "cltesty/hws-13.playground/HWS13.md"; sourceTree = "<group>"; };
 		72E24B5C298D69000033ADA3 /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
 		72E65DCE297ACFB90013B5A9 /* concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concurrency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +84,7 @@
 		7296F3932942728200B665B4 = {
 			isa = PBXGroup;
 			children = (
+				72DE16372AAC9E87009E96A2 /* HWS13.md */,
 				725041F82AABEF870072BD1D /* hws-13.playground */,
 				72479B862AAA8A4400F4A760 /* hws-12.playground */,
 				72B189962AA933F200D2187E /* hws-11.playground */,
