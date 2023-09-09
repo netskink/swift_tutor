@@ -188,6 +188,13 @@ extension String {
     mutating func trim() {
         self = self.trimmed()
     }
+    
+    // this modifies the existing string
+    mutating func trim2() -> String {
+        self = self.trimmed()
+        return self
+    }
+
 
     var lines: [String] {
         self.components(separatedBy: .newlines)
@@ -195,9 +202,13 @@ extension String {
     
 }
 print(quote)
-quote.trim()
+//quote.trim()
 // this fails though. why?
+// It returns void.  Needs to be modified. see HWS13.md
 print(quote.trim())
+print(quote.trim2())
+
+
 //print(quote.trimmed())
 
 let lyrics = """
