@@ -248,9 +248,9 @@ let savedData = first() ?? second() ?? ""
 // example of two concepts - optional unwrapping and optional
 // coalescing.
 //
+//let names = ["Arya", "Bran", "Robb", "Sansa"]
 // when Bran was randomply picked
 //    "Next in line: BRAN"
-//let names = ["Arya", "Bran", "Robb", "Sansa"]
 //
 let names:[String] = []
 // when names is empty array
@@ -265,3 +265,15 @@ let names:[String] = []
 //                               v               v
 let chosen = names.randomElement()?.uppercased() ?? "No one"
 print("Next in line: \(chosen)")
+
+
+// another example
+struct Book3 {
+    let title: String
+    let author: String?
+}
+
+var book3: Book3? = nil
+let author3 = book3?.author?.first?.uppercased() ?? "A"
+print(author3)
+
