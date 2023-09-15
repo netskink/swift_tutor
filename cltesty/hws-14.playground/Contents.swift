@@ -4,9 +4,6 @@ import Cocoa
 // day 14
 // https://www.hackingwithswift.com/100/swiftui
 
-//
-// optionals
-//
 
 
 
@@ -14,6 +11,13 @@ import Cocoa
 // optinals and unwrap with if
 // optionals and unwrap with guard
 // optionals and unwrap with nil coalescing operator ??
+// how to handle failures with optionals
+
+
+//
+// optionals and unwrap with if
+//
+
 
 let opposites = [
     "Mario": "Wario",
@@ -276,4 +280,46 @@ struct Book3 {
 var book3: Book3? = nil
 let author3 = book3?.author?.first?.uppercased() ?? "A"
 print(author3)
+
+// yet another example
+// optional chaining and optional coalescing
+let names5 = ["Vincent": "van Gogh",
+              "Pablo": "Picasso",
+              "Claude": "Monet"]
+let surnameLetter = names5["Vincent"]?.first?.uppercased() ?? "Unknown"
+
+// examples
+
+let songs: [String]? = [String]()
+let finalSong = songs?.last?.uppercased()
+
+//
+func albumReleased(in year: Int) -> String? {
+    switch year {
+    case 2006: return "Taylor Swift"
+    case 2008: return "Fearless"
+    case 2010: return "Speak Now"
+    case 2012: return "Red"
+    case 2014: return "1989"
+    case 2017: return "Reputation"
+    default: return nil
+    }
+}
+let album6 = albumReleased(in: 2005)?.uppercased()
+
+//
+let shoppingList = ["eggs", "tomatoes", "grapes"]
+let firstItem = shoppingList.first?.appending(" are on my shopping list")
+
+//
+let captains2: [String]? = ["Archer", "Lorca", "Sisko"]
+let lengthOfBestCaptain = captains2?.last?.count
+
+//
+let opposites3 = ["hot": "cold", "near": "far"]
+let oppositeOfLight = opposites3["light"]?.uppercased()
+
+
+// resume part 5
+// how to handle function errors with try?
 
