@@ -13,7 +13,7 @@ import Cocoa
 //
 // optinals and unwrap with if
 // optionals and unwrap with guard
-//
+// optionals and unwrap with nil coalescing operator ??
 
 let opposites = [
     "Mario": "Wario",
@@ -184,5 +184,84 @@ func printMeaningOfLife() {
 // are correct before continuing.
 
 
-// resume
-// 3 How to unwrap optionals with nil coalescing
+//
+// nil coalescing - third way to unwrap optionals
+//
+
+let captains = [
+    "Enterprise": "Picard",
+    "Voyager": "Janeway",
+    "Defiant": "Sisko"
+]
+
+// third way to unwrap
+let new_captain = captains["Serenity"] ?? "N/A"
+
+// remember you can also do this, specifying default value for
+// unknowns in dictionaries
+let new_captain2 = captains["Serenity", default: "N/A"]
+
+// But nil coalescing also works on arrays.
+// Here, randomElement() retrieves a random element from
+// an array, but since an array might be empty, it
+// can return a nil that would need to be unwrapped.
+let tvShows = ["Archer", "Babylon 5", "Ted Lasso"]
+let favorite = tvShows.randomElement() ?? "None"
+
+
+// It even works with a struct that
+// might have one of its optional members
+// not specified
+struct Book {
+    let title: String
+    let author: String?
+}
+
+let book = Book(title: "Beowulf", author: nil)
+let author = book.author ?? "Anonymous"
+print(author)
+
+
+// even string to int conversions
+let input = ""
+let number3 = Int(input) ?? 0
+print(number3)
+
+// You can chain nil coalescing operators
+
+func first() -> String? {
+    return nil
+}
+func second() -> String? {
+    return nil
+}
+
+
+
+let savedData = first() ?? second() ?? ""
+
+
+//
+// optional chaining
+//
+
+// example of two concepts - optional unwrapping and optional
+// coalescing.
+//
+// when Bran was randomply picked
+//    "Next in line: BRAN"
+//let names = ["Arya", "Bran", "Robb", "Sansa"]
+//
+let names:[String] = []
+// when names is empty array
+//     "Next in line: No one"
+//
+//       optional coalescing in case the chain is nil
+//                                               |
+//                                               |
+//  optional chaining to unwrap randomeElement() |
+//  in case it returns nil       |               |
+//                               |               |
+//                               v               v
+let chosen = names.randomElement()?.uppercased() ?? "No one"
+print("Next in line: \(chosen)")
