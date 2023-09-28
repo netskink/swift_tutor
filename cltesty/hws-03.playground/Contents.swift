@@ -154,9 +154,8 @@ day = WeekDay.tuesday
 // alternative
 
 enum WeekDay2 {
-case monday, tuesday, wednesday
-case thursday
-case friday
+    case monday, tuesday, wednesday
+    case thursday, friday
 }
 
 // shortend asignment
@@ -164,3 +163,96 @@ case friday
 var day2 = WeekDay2.monday
 day2 = .thursday
 
+
+//
+// structs and enums combined
+//
+struct BlackjackCard {
+
+
+    // nested Suit enumeration
+    enum Suit: Character {
+        case spades = "♠", hearts = "♡", diamonds = "♢", clubs = "♣"
+    }
+
+
+    // nested Rank enumeration
+    enum Rank: Int {
+        case two = 2, three, four, five, six, seven, eight, nine, ten
+        case jack, queen, king, ace
+        struct Values {
+            let first: Int, second: Int?
+        }
+        var values: Values {
+            switch self {
+            case .ace:
+                return Values(first: 1, second: 11)
+            case .jack, .queen, .king:
+                return Values(first: 10, second: nil)
+            default:
+                return Values(first: self.rawValue, second: nil)
+            }
+        }
+    }
+
+
+    // BlackjackCard properties and methods
+    let rank: Rank, suit: Suit
+    var description: String {
+        var output = "suit is \(suit.rawValue),"
+        output += " value is \(rank.values.first)"
+        if let second = rank.values.second {
+            output += " or \(second)"
+        }
+        return output
+    }
+}
+
+let theAceOfSpades = BlackjackCard(rank: .ace, suit: .spades)
+print("theAceOfSpades: \(theAceOfSpades.description)")
+// Prints "theAceOfSpades: suit is ♠, value is 1 or 11"
+
+
+struct SkillDefaults {
+    enum Defaults: String {
+        case dx, iq, shortSword, broadSword
+    }
+    
+    enum Mod: Int {
+        case zero=0, minus1, minus2, minus3, minus4
+        struct Values {
+            let first: Int
+        }
+        var values: Values {
+            switch self {
+            case .zero:
+                return Values(first: 0)
+            case .minus1:
+                return Values(first: -1)
+            case .minus2:
+                return Values(first: -2)
+            case .minus3:
+                return Values(first: -3)
+            case .minus4:
+                return Values(first: -4)
+
+            }
+        }
+    }
+    
+    
+    // properties and methods
+    let defaults: Defaults
+    let mod: Mod
+    var description: String {
+        //var output = "\(defaults)\(mod.values.first)"
+        var output = "\(defaults)\(mod)"
+        return output
+    }
+}
+
+let foo = SkillDefaults(defaults: .dx, mod: .minus2)
+print(foo.defaults)
+print(foo.mod)
+print("---")
+print(foo.description)
