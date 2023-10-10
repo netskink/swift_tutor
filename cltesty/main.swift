@@ -111,3 +111,5 @@ stdlib_one()
 LcgCounter()
 
 LehmanPRNG()
+
+EfficientPRNG()

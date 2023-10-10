@@ -11,6 +11,8 @@ import Foundation
 // Linear Congruential Generator
 // "a pseudo random number generator"
 //
+// https://en.wikipedia.org/wiki/Linear_congruential_generator
+//
 //  X n+1 = (a X n + c) mod m
 // X sub n+1 is generated from X sub n
 // where X is a sequence of random numbers
@@ -54,6 +56,10 @@ func LcgCounter() {
     }
 }
 
+
+// m prime
+// c = 0
+// original Lemher RNG construction
 func LehmanPRNG() {
     print("Lehman PRNG")
     let x0:Int = 4   // seed
@@ -66,6 +72,28 @@ func LehmanPRNG() {
     for _ in 1...10 {
         xn = Lcg(xn: xn, a:a, c: c, m: m)
         print("xn: \(xn)")
+    }
+}
+
+
+// m power of 2
+// c = 0
+//
+// allows modulus operator to be simple truncate bits
+func EfficientPRNG() {
+    print("Efficient PRNG")
+    let x0:Int = 5   // seed
+    let a:Int = 3    // multiplier
+    let c:Int = 0    // the increment
+    let m:Int = 0xF    // the modulus becomes the mask, the wider the mask the longer the repeat period
+    var xn:Int
+    var st: String
+
+    xn = x0
+    for _ in 1...10 {
+        xn = ((a * xn + c) ) & m
+        st = String(format:"%02X", xn)
+        print("xn: \(st)")
     }
 }
 
