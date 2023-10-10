@@ -105,3 +105,9 @@ generics_four()
 
 // stdlib api
 stdlib_one()
+
+
+
+LcgCounter()
+
+LehmanPRNG()
