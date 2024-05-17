@@ -41,6 +41,7 @@
 		7216A04C2A9C2DB000F9351A /* hws-01.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-01.playground"; path = "cltesty/hws-01.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		721CC4852AA00689004E8F31 /* hws-04.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-04.playground"; path = "cltesty/hws-04.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7222CE912AA7EC5C004EDEF9 /* hws-10.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-10.playground"; path = "cltesty/hws-10.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7224C2BA2BF79C8C0046A53E /* closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = closures.playground; path = ../../myxcode/closures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		722EDD762A9D6EA200A95468 /* hws-02.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-02.playground"; path = "cltesty/hws-02.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7245242F294A713C00F45ECA /* objects_classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = objects_classes.swift; sourceTree = "<group>"; };
 		72479B862AAA8A4400F4A760 /* hws-12.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "hws-12.playground"; path = "cltesty/hws-12.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -87,6 +88,7 @@
 		7296F3932942728200B665B4 = {
 			isa = PBXGroup;
 			children = (
+				7224C2BA2BF79C8C0046A53E /* closures.playground */,
 				72B6270A2AB3ED7A000DA7BD /* hws-14.playground */,
 				7266EFD62AAE15E2008F91FA /* HWS13.md */,
 				725041F82AABEF870072BD1D /* hws-13.playground */,
@@ -167,7 +169,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					7296F39B2942728200B665B4 = {
 						CreatedOnToolsVersion = 14.1;
@@ -252,9 +254,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -312,9 +316,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -336,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = Z84M4MZYKF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -347,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = Z84M4MZYKF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
