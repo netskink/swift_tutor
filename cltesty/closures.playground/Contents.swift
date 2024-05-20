@@ -131,7 +131,47 @@ travel5 { (place: String) in
 }
 
 
-////
-////////
+//
+// sorthand parameter names
+//
 
+print("=== demo shorthand notation. ===")
+
+// This function has a parameter which
+// is a closure that uses a parameter.
+func travel6(action: (String) -> String) {
+    print("I'm ready to go.")
+    let description = action("london")
+    print(description)
+    print("I've arrived!")
+}
+
+// we can call it like this:
+travel6 { (place: String) in
+    return("I'm driving to \(place) in my car.")
+}
+
+// or like this:
+travel6 { (place: String) -> String in
+    return("I'm driving to \(place) on my bike.")
+}
+
+// however swift knows the parameter to that
+// closure must be a string, so we can remove it
+travel6 { place in
+    return("I'm driving to \(place) on my skateboard.")
+}
+
+// since the closure only has one line of code that
+// must be the one that returns the value so swift
+// lets us remote the return keyword
+travel6 { place in
+    "I'm driving to \(place) on my snowmobile."
+}
+
+// swift has as shorthand which uses the $n syntax
+// and then you avoi the parameter as well
+travel6 {
+    "I'm driving to \($0) on my hoverboard."
+}
 
