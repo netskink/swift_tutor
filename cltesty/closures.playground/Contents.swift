@@ -226,3 +226,20 @@ let result2 = travel8()("Durham")
 
 print("=== Capturing values. ===")
 
+// closure capturing happens if we create values in travel()
+// that get used inde the closure.  For example, lets
+// track how often the returned clousre is called.
+func travel9() -> (String) -> Void {
+    var counter = 1
+    return {
+        print("I'm going to \($0).  This is \(counter) trip.")
+        counter += 1
+    }
+}
+
+let result3 = travel9()
+result3("London")
+result3("London")
+result3("London")
+
+
