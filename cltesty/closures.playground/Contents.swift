@@ -175,3 +175,54 @@ travel6 {
     "I'm driving to \($0) on my hoverboard."
 }
 
+
+//
+// closures with multiple parameters
+//
+
+print("=== closures with multiple parameters. ===")
+
+// This function has a parameter which
+// is a closure that uses two parameters
+// and returns a string.
+func travel7(action: (String, Int) -> String) {
+    print("I'm getting ready to go.")
+    let description = action("london", 60)
+    print(description)
+    print("I've arrived!")
+}
+
+// swift has as shorthand which uses the $n syntax
+// and then you avoi the parameter as well
+travel7 {
+    "I'm driving to \($0) at \($1) miles per hour."
+}
+
+//
+// Returning closures from functions
+//
+
+print("=== Returning closures from functions. ===")
+
+// This function has a parameter which
+// is a closure that uses two parameters
+// and returns a string.
+func travel8() -> (String) -> Void {
+    return {
+        print("I'm going to \($0)")
+    }
+}
+
+let result = travel8()
+result("London")
+
+// can also do directly
+let result2 = travel8()("Durham")
+
+
+//
+// Capturing values
+//
+
+print("=== Capturing values. ===")
+
